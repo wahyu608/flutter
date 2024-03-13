@@ -89,21 +89,55 @@ class MyRow extends StatelessWidget {
           height: 100,
           width: 100,
           color: Colors.amber,
-        ),
+          child:Center(child: Text(
+           'Container 1',
+           style: TextStyle(
+           fontWeight: FontWeight.bold,
+           fontSize: 10,
+           color: Color.fromARGB(200, 0, 172, 9),
+           ),
+          ),
+        )),
         Container(
           height: 100,
           width: 100,
           color: Color.fromARGB(255, 162, 133, 2),
-        ),
+          child:Center(child: Text(
+           'Container 2',
+           style: TextStyle(
+           fontWeight: FontWeight.bold,
+           fontSize: 10,
+           color: Color.fromARGB(255, 236, 172, 9),
+           ),
+          ),
+        )),
         Container(
           height: 100,
           width: 100,
           color: Color.fromARGB(255, 129, 87, 4),
+          child:Center(child: Text(
+           'Container 3',
+           style: TextStyle(
+           fontWeight: FontWeight.bold,
+           fontSize: 10,
+           color: Color.fromARGB(255, 236, 172, 9),
+           ),
+          ),
+        )
         ),
         Container(
           height: 100,
           width: 100,
           color: Color.fromARGB(255, 75, 56, 1),
+          child:Center(child: Text(
+           'Container 4',
+           style: TextStyle(
+           fontWeight: FontWeight.bold,
+           fontSize: 10,
+           color: Color.fromARGB(255, 236, 172, 9),
+           ),
+          ),
+        )
         ),
       ],
     );
